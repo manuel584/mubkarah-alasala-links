@@ -1,13 +1,13 @@
 :root {
-  /* Theme Colors extracted from image */
-  --bg-color: #a7f3d0;
-  /* Mint green background */
-  --text-color: #000000;
-  --card-bg: #d1fae5;
-  /* Lighter mint for buttons */
+  /* Theme Colors - Beige/Cream palette matching the logo */
+  --bg-color: #f5f0e8;
+  /* Warm cream background */
+  --text-color: #3d3731;
+  --card-bg: #faf7f2;
+  /* Lighter cream for buttons */
   --card-hover: #ffffff;
-  --border-color: #000000;
-  --shadow-color: #000000;
+  --border-color: #3d3731;
+  --shadow-color: #3d3731;
 
   /* Dimensions */
   --border-width: 2px;
@@ -19,18 +19,12 @@
 }
 
 @media (prefers-color-scheme: dark) {
-
-  /* Optional: Keep a dark mode or force the specific design? 
-     The user asked for "like this", which is light. 
-     I will keep the variables but map them to a dark variant that keeps the vibe 
-     or just override for now to ensure it looks exactly like the picture. 
-     Let's make a cool dark variant that preserves the style. */
   :root {
-    --bg-color: #064e3b;
-    --text-color: #ecfdf5;
-    --card-bg: #065f46;
-    --card-hover: #047857;
-    --border-color: #ecfdf5;
+    --bg-color: #2a2520;
+    --text-color: #f5f0e8;
+    --card-bg: #3d3731;
+    --card-hover: #4a433d;
+    --border-color: #f5f0e8;
     --shadow-color: #000000;
   }
 }
@@ -90,7 +84,6 @@ body {
 .links {
   width: 100%;
   max-width: 400px;
-  /* Narrower to match mobile app feel */
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
@@ -136,9 +129,6 @@ body {
 .link-title {
   flex-grow: 1;
   text-align: center;
-  /* Offset center slightly to account for icon if needed, 
-     but usually centering in the remaining space is better. 
-     Let's keep it simple. */
 }
 
 /* Footer */
