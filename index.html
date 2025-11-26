@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="My Link in Bio - Connect with me across the web">
+  <meta name="theme-color" content="#f4f4f5">
+  <title>My Links</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔗</text></svg>">
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" content="My Links">
+  <meta property="og:description" content="Connect with me across the web">
+  <meta property="og:type" content="website">
+</head>
+<body>
+  <main class="profile">
+    <!-- Replace with your actual image URL or local path -->
+    <img src="https://via.placeholder.com/96" alt="Profile Picture" class="profile-img">
+    <h1 class="profile-name">Your Name</h1>
+    <p class="profile-bio">Short bio goes here. Developer, Creator, Enthusiast.</p>
+  </main>
+
+  <div id="links-container" class="links">
+    <!-- Fallback content for no-js or loading -->
+    <noscript>
+      <a href="https://github.com" class="link-card" target="_blank" rel="noopener noreferrer">
+        <span class="link-title">GitHub</span>
+      </a>
+      <a href="https://twitter.com" class="link-card" target="_blank" rel="noopener noreferrer">
+        <span class="link-title">Twitter</span>
+      </a>
+    </noscript>
+    <div class="link-card" style="justify-content: center; opacity: 0.7;">
+      Loading links...
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Your Name</p>
+    <!-- Analytics Placeholder -->
+    <!-- <script src="https://analytics.example.com/js/script.js" data-site="YOUR_ID" defer></script> -->
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
