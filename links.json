@@ -1,27 +1,17 @@
 [
   {
-    "title": "GitHub",
-    "url": "https://github.com",
-    "icon": "github"
-  },
-  {
-    "title": "Twitter",
-    "url": "https://twitter.com",
-    "icon": "twitter"
-  },
-  {
-    "title": "LinkedIn",
-    "url": "https://linkedin.com",
-    "icon": "linkedin"
-  },
-  {
-    "title": "My Portfolio",
-    "url": "https://example.com",
+    "title": "Website",
+    "url": "https://mubkharaasal.com/",
     "icon": "globe"
   },
   {
-    "title": "Contact Me",
-    "url": "mailto:hello@example.com",
-    "icon": "mail"
+    "title": "Instagram",
+    "url": "https://www.instagram.com/malasala.sa",
+    "icon": "instagram"
+  },
+  {
+    "title": "TikTok",
+    "url": "https://www.tiktok.com/@malasala.sa",
+    "icon": "tiktok"
   }
 ]
