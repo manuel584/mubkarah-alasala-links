@@ -60,7 +60,8 @@ body {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  object-fit: cover;
+  object-fit: contain;
+  padding: 8px;
   margin-bottom: 1rem;
   border: var(--border-width) solid var(--border-color);
   box-shadow: var(--shadow-offset) var(--shadow-offset) 0px 0px var(--shadow-color);
