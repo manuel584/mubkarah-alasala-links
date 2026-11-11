@@ -265,17 +265,3 @@ footer {
     color: #aaa;
   }
 }
-/* Social icons (brand-coloured via mask) */
-.icon {
-  width: 22px;
-  height: 22px;
-  margin-inline-end: 12px;
-  flex-shrink: 0;
-  background-color: #fff;
-  -webkit-mask: var(--src) center / contain no-repeat;
-  mask: var(--src) center / contain no-repeat;
-}
-.icon-facebook { --src: url("icons/facebook.svg"); background-color: #1877f2; }
-.icon-threads  { --src: url("icons/threads.svg"); }
-.icon-youtube  { --src: url("icons/youtube.svg"); background-color: #ff0000; }
-.icon-x        { --src: url("icons/x.svg"); }
